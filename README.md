@@ -1,2 +1,2 @@
-# toki-courses
-Source code problem di Toki Courses
+# toki-courses-cpp
+Source code problem di TOKI Courses menggunakan C++
