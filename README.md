@@ -1,2 +1,2 @@
 # toki-courses-cpp
-my source code on toki training gate
+Source code problem di Toki Courses (C++)
