@@ -26,6 +26,4 @@ int main() {
             printf("BUKAN\n");
         }
     }
-
-    return 0;
 }

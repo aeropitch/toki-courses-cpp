@@ -13,6 +13,4 @@ int main() {
         y *= -1;
     }
     printf("%d\n", x + y);
-
-    return 0;
 }

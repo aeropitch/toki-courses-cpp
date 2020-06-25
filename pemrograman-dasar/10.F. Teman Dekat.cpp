@@ -1,23 +1,6 @@
 #include <cstdio>
-// fungsi abs() dan pow() juga dapat diakses
-// menggunakan STL <cmath>
+#include <cmath>
 using namespace std;
-
-int abs(int x) {
-    if (x < 0) {
-        return x * -1;
-    } else {
-        return x;
-    }
-}
-
-int pow(int b, int n) {
-    int x = b;
-    for (int i = 2; i <= n; i++) {
-        x *= b;
-    }
-    return x;
-}
 
 int func(int Xi, int Yi, int Xj, int Yj, int D) {
     return pow(abs(Xj - Xi), D) + pow(abs(Yj - Yi), D);
@@ -44,6 +27,4 @@ int main() {
         }
     }
     printf("%d %d\n", min, max);
-
-    return 0;
 }

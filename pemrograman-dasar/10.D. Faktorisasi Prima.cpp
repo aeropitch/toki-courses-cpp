@@ -35,6 +35,4 @@ int main() {
     int N;
     scanf("%d", &N);
     primeFactor(N);
-    
-    return 0;
 }

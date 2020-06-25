@@ -9,6 +9,4 @@ int main() {
     for (int j = i - 1; j >= 0; j--) {
         printf("%d\n", arr[j]);
     }
-    
-    return 0;
 }

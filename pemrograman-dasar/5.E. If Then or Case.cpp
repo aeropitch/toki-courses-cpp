@@ -15,6 +15,4 @@ int main() {
     } else {
         printf("puluhribuan\n");
     }
-
-    return 0;
 }

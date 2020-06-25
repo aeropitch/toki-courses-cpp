@@ -15,6 +15,4 @@ int main() {
     int A, B, C;
     scanf("%d %d", &A, &B);
     printf("%d\n", reverse(reverse(A) + reverse(B)));
-
-    return 0;
 }

@@ -7,6 +7,4 @@ int main() {
     if (N > 0) {
         printf("%d\n", N);
     }
-
-    return 0;
 }

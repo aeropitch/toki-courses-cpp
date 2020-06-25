@@ -24,6 +24,4 @@ int main() {
         B = A;
     }
     printf("%d %d\n", A, B);
-
-    return 0;
 }

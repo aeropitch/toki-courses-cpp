@@ -10,6 +10,4 @@ int main() {
         sum += temp;
     }
     printf("%d\n", sum);
-
-    return 0;
 }

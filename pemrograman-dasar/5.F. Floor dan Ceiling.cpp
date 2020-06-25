@@ -16,6 +16,4 @@ int main() {
         C = N;
     }
     printf("%d %d\n", F, C);
-
-    return 0;
 }

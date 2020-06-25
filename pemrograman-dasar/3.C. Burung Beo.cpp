@@ -7,6 +7,4 @@ int main() {
     scanf("%[^\n]", temp);
     string s = temp;
     printf("%s\n", s.c_str());
-    
-    return 0;
 }

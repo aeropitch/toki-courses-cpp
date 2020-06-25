@@ -12,6 +12,4 @@ int main() {
     } else {
         printf("bukan\n");
     }
-
-    return 0;
 }

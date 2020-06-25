@@ -1,15 +1,6 @@
 #include <cstdio>
-// fungsi abs() juga dapat diakses
-// menggunakan STL <cmath>
+#include <cmath>
 using namespace std;
-
-int abs(int x) {
-    if (x < 0) {
-        return x * -1;
-    } else {
-        return x;
-    }
-}
 
 void func(int A, int B, int &x) {
     x = abs(A * x + B);
@@ -22,6 +13,4 @@ int main() {
         func(A, B, x);
     }
     printf("%d\n", x);
-    
-    return 0;
 }
